@@ -93,6 +93,11 @@
                         });
                     }
                 });
+				
+				setTimeout(function() {
+					$("#gdpr-cookie-message").fadeOut().empty();
+				}, 10000);
+				
             }, settings.delay);
 
             // When accept button is clicked drop cookie
